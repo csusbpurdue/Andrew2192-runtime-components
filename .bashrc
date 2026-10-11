@@ -184,3 +184,8 @@ if ! shopt -oq posix; then
   fi
 >>>>>>> 4db7eac (Initial commit.)
 fi
+
+# boilersay
+export PATH="$HOME/.local/bin:$PATH"
+alias boilersay='cowsay -f train'
+alias hail='printf "Hammer Up\nBoiler Down\nHail Purdue\n" | boilersay -n'
